@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML WEBSITE ONLY</title>
+    <style>
+        .h1 {
+            color: navy;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        .para {
+            color: black;
+            font-size: x-large;
+
+        }
+
+        .image {
+            margin-left: 200px;
+            width: 200px;
+            border-color: black;
+            box-shadow: inset;
+            background-origin: padding-box;
+            border-radius: 30px;
+        }
+
+        .para2 {
+            font-size: x-large;
+            color: black;
+        }
+
+        .para3 {
+            font-size: x-large;
+            color: black;
+        }
+
+        .para4 {
+            font-size: x-large;
+            color: black;
+        }
+
+        .para4 .image2 {
+            width: -100px;
+
+
+        }
+        nav {
+    : #333;
+    overflow: hidden;
+    }
+
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    nav li {
+    float: left;
+    }
+
+    nav a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    nav a:hover {
+    background-color: #ddd;
+    color: #333;
+    }
+    </style>
+</head>
+
+<body
+    background="https://previews.123rf.com/images/vska/vska1302/vska130200052/17854780-abstract-great-light-futuristic-computer-technology-business-background.jpg">
+   
+    </style>
+    </head>
+
+    <body>
+
+        <nav>
+            <ul>
+                <button><li><a href="#">C Basics</a></li></button> 
+                <button><li><a href="#">C Operators</a></li></button>
+                <button><li><a href="#">C Data Types</a></li></button>
+                <button><li><a href="#">C Input Output</a></li></button>
+                <button> <li><a href="#">C Control Flow</a></li></button>
+       
+                <button><li><a href="#">C Functions</a></li></button>
+                <button><li><a href="#">C Arrays</a></li></button>
+                <button><li><a href="#">C Strings</a></li></button>
+                <button><li><a href="#">C Pointers</a></li></button>
+                <button><li><a href="#">C Preprocessor</a></li></button>
+                <button><li><a href="#">C File Handling</a></li></button>
+                <button><li><a href="#">C MCQ</a></li></button>
+
+                
+
+            </ul>
+        </nav>
+        <div class="h1">
+            <h1><u>INTRODUCTION TO C</u> </h1>
+        </div>
+        <div class="image"><img
+                src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230630120259/C-Language-Introduction.png"
+                alt="c introduction">
+        </div>
+        <div class="para">
+            <H3><b>What is C?</b></H3>
+            <p> C is a general-purpose programming language created by <b><a href="">Dennis Ritchie</a></b> at the Bell
+                Laboratories in 1972.
+
+                It is a very popular language, despite being old. The main reason for its popularity is because it is a
+                fundamental language in the field of computer science.
+
+                C is strongly associated with UNIX, as it was developed to write the UNIX operating.<br><br>The main
+                features of the C language include:
+            <ul>
+                <li>General Purpose and Portable</li>
+                <li>Low-level Memory Access</li>
+                <li>Fast Speed</li>
+                <li>Clean Syntax</li>
+            </ul>
+            </p>
+        </div>
+        <br>
+        <div class="para2">
+            <h3><b>Why Should We Learn C?</b></h3>
+            <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like
+                syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is
+                nearly a superset of C language (Only a few programs may compile in C, but not in C++).<br>
+
+                So, if a person learns C programming first, it will help him to learn any modern programming language as
+                well. As learning C help to understand a lot of the underlying architecture of the operating system.
+                Like pointers, working with memory locations, etc.</p>
+        </div>
+        <div class="para3">
+            <h3><b>Beginning with C programming:</b></h3>
+            <h4><b>Writing the First Program in C</b></h2>
+                <p>The following code is one of the simplest C programs that will help us the basic syntax structure of
+                    a C program.<br>
+                </p>
+                <p><b>Example:</b></p>
+                <img src="data:image/jpeg;base64,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"
+                    alt="example of c language">
+                <p><b>Output:
+                    </b></p>
+                <p>10</p>
+        </div>
+        <div class="para4">
+            <h3><b>Structure of the C program</b></h3>
+            <p>After the above discussion, we can formally assess the structure of a C program. By structure, it is
+                meant that any program can be written in this structure only. Writing a C program in any other structure
+                will hence lead to a Compilation Error. The structure of a C program is as follows:
+
+            </p>
+            <div class="image2">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221219163357/Structure-of-C-Program.png"
+                    alt="structure of c">
+            </div>
+        </div>
+        <h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THANK
+                YOU</b></h1>
+
+
+
+    </body>
+
+</html>
